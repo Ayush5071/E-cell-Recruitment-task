@@ -25,7 +25,7 @@ const Grid = () => {
   };
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full h-[120vh] md:h-full md:px-36 md:py-20 px-4 py-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full h-[120vh] md:h-full md:px-24 md:py-24 lg:px-40 lg:py-36 px-4 py-24">
       <div className="col-span-1 md:col-span-2 lg:col-span-1 w-full h-80 bg-gradient-to-br from-[#3C01FF] to-[#F100FF] rounded-2xl shadow-md shadow-black-800/55">
       </div>
       <div className="col-span-1 w-full h-80 rounded-2xl shadow-md shadow-black-800/55 flex items-center justify-center">

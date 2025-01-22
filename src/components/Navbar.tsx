@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-gray-800 p-4">
+    <nav className="bg-gray-800 p-4 fixed top-0 z-50 w-screen">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-2xl font-bold">
           Ecell
@@ -41,7 +41,7 @@ const NavLinks: React.FC<{ navigate: (path: string) => void }> = ({ navigate }) 
       <button onClick={() => navigate('/profile')} className="block py-2 px-4 hover:bg-gray-700 rounded">Profile</button>
     </li>
     <li className="text-white">
-      <a href="https://www.linkedin.com" className="block py-2 px-4 hover:bg-gray-700 rounded">LinkedIn</a>
+      <a href="https://www.linkedin.com/ayush-tiwari-84a823281" className="block py-2 px-4 hover:bg-gray-700 rounded">LinkedIn</a>
     </li>
   </ul>
 );
