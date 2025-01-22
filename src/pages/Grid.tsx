@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const Grid = () => {
   const [colors, setColors] = useState(Array(9).fill('bg-blue-900'));
