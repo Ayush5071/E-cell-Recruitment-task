@@ -41,7 +41,7 @@ const NavLinks: React.FC<{ navigate: (path: string) => void }> = ({ navigate }) 
       <button onClick={() => navigate('/profile')} className="block py-2 px-4 hover:bg-gray-700 rounded">Home</button>
     </li>
     <li className="text-white">
-      <a href="https://www.linkedin.com/ayush-tiwari-84a823281" className="block py-2 px-4 hover:bg-gray-700 rounded">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/ayush-tiwari-84a823281/" className="block py-2 px-4 hover:bg-gray-700 rounded">LinkedIn</a>
     </li>
   </ul>
 );
