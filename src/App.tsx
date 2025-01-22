@@ -12,6 +12,7 @@ const App = () => {
       <div className="w-full h-screen">
         <Navbar/>
         <Routes>
+          <Route path="/" element={<Profile />} />
           <Route path="/grid" element={<Grid />} />
           <Route path="/profile" element={<Profile />} />
         </Routes>
